@@ -53,6 +53,15 @@ h2, h3, h4 {
 .navbar-nav {
     text-align: left;
 }
+.brand-name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-width: 4px;
+    border-color: yellow;
+    border-style: dotted solid;
+    border-radius: 100%;
+    padding: 5px;
+}
 
 #title .btn {
     font-size: .8rem;
@@ -124,6 +133,7 @@ h2, h3, h4 {
     position: relative;
     min-height: 100vh;
     padding-top: 100px;
+    padding-bottom: 0;
 }
 
 .skills2 h4 {
@@ -133,7 +143,6 @@ h2, h3, h4 {
 #skills-second h2{
     margin-bottom: 2rem;
 }
-
 
 
 
