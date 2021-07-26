@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border-style: dotted;
+    border-color: #423F3E ;
+    border-bottom: none;
+    width: 4%;
+    border-width: 7px;
+    margin: 0 auto ;
+}
+
+h2, h3, h4 {
+    font-family: 'Ubuntu';
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+
+/* TITLE SECTION */
+#title {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/dasdasdsad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    min-height: 100vh;
+} 
+.front-message {
+    color: white;
+    padding: 30% 15%;
+    font-weight: bold;
+}
+.front-message h1 {
+    font-family: 'Special Elite';
+    font-size: 5rem;
+}
+#title .container-fluid {
+    padding-top: 2%;
+}
+.navbar-nav {
+    text-align: left;
+}
+
+#title .btn {
+    font-size: .8rem;
+}
+
+/* ABOUT SECTION */
+
+.my-image {
+    width: 200px;
+    border-radius: 100%;
+}
+#about {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/wood-background-vertical.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(#171010, #362222);
+    min-height: 100vh;
+}
+.about-me {
+    padding: 200px 100px 200px;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.about-me h2{
+    margin-bottom: 50px;
+}
+.about-me p {
+    margin-top: 30px;  
+} 
+
+
+
+
+/* MIDDLE SECTION */
+#skills-first h2{
+    margin-bottom: 2rem;
+}
+#skills-first {
+    background-image: linear-gradient(#362222, #171010);
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+#skills-first img{
+    float: left;
+}
+.all-skills {
+    padding: 50px 0 25px;
+    align-items: center;
+}
+.all-skills ul {
+    list-style: none;
+}
+.all-skills p, h4 {
+    text-align: left;
+}
+.all-skills img {
+    width: 6rem;
+    height: 6rem;
+    margin: 1.3rem;
+}
+
+
+#skills-second {
+    background-image: linear-gradient(#171010, #362222);
+    position: relative;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+.skills2 h4 {
+    text-align: center;
+}
+
+#skills-second h2{
+    margin-bottom: 2rem;
+}
+
+
+
+
+#contact {
+    background-image: linear-gradient(#362222, #171010);
+    position: relative;
+}
+
+#emial-button {
+    width: 1.5rem;
+    height: auto;
+    filter: invert(1);
+}
+
+
+.footer {
+    background-image: linear-gradient(#171010, #362222);
+    padding: 20px;
+
+}
+.footer i {
+    width: 2rem;
+    margin: 1.3rem;
+    transition: transform .3s;
+}
+.footer i:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    p {
+        font-size: 13px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .front-message {
+        padding: 250px 0 100px;
+    }
+    .container-fluid {
+        padding: 50px;
+    }
+    .about-me {
+      height: 100vh;
+      padding-top: 15rem;
+    }
+   
+    .all-skills {
+        padding: 0;
+    }
+    #skills-first{
+        height: 100vh;
+        position: static;
+        text-align: center;
+    }
+    #skills-first h2 {
+        margin-bottom: 5rem;
+    }
+    .all-skills img {
+        width: 4rem;
+        height: 4rem;
+        margin: 1.3rem;
+    }
+    #skills-first .all-skills {
+        padding-bottom: 10%;
+    }
+    #skills-second {
+        height: 100vh;  
+    }
+    #skills-second .all-skills {
+        padding: 10%;
+    }
+
+    .footer i {
+        width: 1rem;
+        margin: 1.3rem;
+    }
+  }
