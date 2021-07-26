@@ -79,10 +79,13 @@ h2, h3, h4 {
     background-repeat: no-repeat;
     background-size: cover; */
     background-image: linear-gradient(#171010, #362222);
-    min-height: 100vh;
+
+
 }
 .about-me {
     padding: 200px 100px 200px;
+    width: 100%;
+    min-height: 100vh;
 
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -105,18 +108,18 @@ h2, h3, h4 {
 #skills-first {
     background-image: linear-gradient(#362222, #171010);
     position: relative;
-    min-height: 100vh;
-    padding-top: 100px;
 }
 #skills-first img{
     float: left;
 }
+.skills1 {
+    height: 100vh;
+    width: 100%;
+
+}
 .all-skills {
     padding: 50px 0 25px;
     align-items: center;
-}
-.all-skills ul {
-    list-style: none;
 }
 .all-skills p, h4 {
     text-align: left;
@@ -131,17 +134,21 @@ h2, h3, h4 {
 #skills-second {
     background-image: linear-gradient(#171010, #362222);
     position: relative;
-    min-height: 100vh;
-    padding-top: 100px;
-    padding-bottom: 0;
 }
+.skills2 {
+    height: 100vh;
+    width: 100%;
 
+}
 .skills2 h4 {
     text-align: center;
 }
 
 #skills-second h2{
     margin-bottom: 2rem;
+}
+#skills-second hr {
+    margin-top: 30%;
 }
 
 
@@ -185,24 +192,41 @@ h2, h3, h4 {
     h2 {
         font-size: 25px;
     }
-    .front-message {
-        padding: 250px 0 100px;
-    }
+
     .container-fluid {
         padding: 50px;
+        padding-top: 0;
+    }
+    .front-message {
+        padding-top: 50%;
     }
     .about-me {
       height: 100vh;
-      padding-top: 15rem;
+      padding-top: 50%;
+      padding-bottom: 50%;
+    }
+
+    .skills1 .container-fluid {
+        height: 100vh;
+        padding-top: 100px; 
+    }
+    .skills2{
+        padding-top: 10%;
+    }
+    .skills1 {
+        padding-top: 10%;
+    }
+    .emial {
+        padding-top: 10%  
     }
    
     .all-skills {
         padding: 0;
     }
     #skills-first{
-        height: 100vh;
-        position: static;
+        position: relative;
         text-align: center;
+    
     }
     #skills-first h2 {
         margin-bottom: 5rem;
@@ -214,9 +238,6 @@ h2, h3, h4 {
     }
     #skills-first .all-skills {
         padding-bottom: 10%;
-    }
-    #skills-second {
-        height: 100vh;  
     }
     #skills-second .all-skills {
         padding: 10%;
