@@ -193,15 +193,23 @@ h2, h3, h4 {
 @media only screen and (max-width: 600px) {
 
     p {
-        font-size: 13px;
+        font-size: 10px;
     }
     h4 {
-        font-size: 20px;
+        font-size: 15px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
-
+    .front-message h3 {
+        font-size: 20px;
+    }
+    .front-message h1 {
+        font-size: 60px;
+    }
+    .front-message .btn {
+        margin-top: 50px;
+    }
     .container-fluid {
         padding: 50px;
         padding-top: 0;
