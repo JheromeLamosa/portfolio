@@ -7,20 +7,14 @@
 body {
     font-family: 'Montserrat';
     text-align: center;
-    color: white;
+    color: #101010;
     margin: 0;
     padding: 0;
 }
-hr {
-    border-style: dotted;
-    border-color: #423F3E ;
-    border-bottom: none;
-    width: 4%;
-    border-width: 7px;
-    margin: 0 auto ;
-}
+
 span {
     color: #D9DD6B;
+
 }
 h2, h3, h4 {
     font-family: 'Ubuntu';
@@ -30,22 +24,54 @@ h2, h3, h4 {
     padding: 7% 15%;
 }
 
+/* NAV BAR */
+.navbar-dark .navbar-nav .nav-link {
+    color: white!important;
+}
+
+/* DEVIDER */
+
+/* start Devider bottom of Main banner */
+.custom-shape-divider-bottom-1652794500 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652794500 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1652794500 .shape-fill {
+    fill: #FFC7C7;
+}
+/* start Devider bottom of Main banner */
 
 
 /* TITLE SECTION */
 #title {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/dasdasdsad.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     width: auto;
     min-height: 100vh;
+    background-color: #F6F6F6;
 } 
-.front-message {
-    color: white;
-    padding: 30% 15%;
+.main-banner {
+    color: #101010;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
 }
-.front-message h1 {
+.main-banner h1 {
     font-family: 'Special Elite';
     font-size: 5rem;
 }
@@ -62,28 +88,37 @@ h2, h3, h4 {
     border-color: #D9DD6B;
     border-style: dotted solid;
     border-radius: 100%;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 #title .btn {
     font-size: .8rem;
 }
+.download-cv-button {
+    padding: 15px;
+    font-size: 16px;
+    color: #101010;
+    border: 1px solid black;
+}
+.fixed-top {
+    background: #9D9D9D;
+}
+.main-banner h3 {
+    margin-bottom: 30px;
+}
 
 /* ABOUT SECTION */
+
+#about {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/gummy-coding.png'); */
+    background-color: #F8F0DF;
+}
 
 .my-image {
     width: 200px;
     border-radius: 100%;
 }
-#about {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/wood-background-vertical.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-image: linear-gradient(#171010, #362222);
 
-
-}
 .about-me {
     padding: 200px 100px 200px;
     width: 100%;
@@ -91,7 +126,7 @@ h2, h3, h4 {
 
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: #101010;
 }
 .about-me h2{
     margin-bottom: 50px;
@@ -106,10 +141,6 @@ h2, h3, h4 {
 /* MIDDLE SECTION */
 #skills-first h2{
     margin-bottom: 2rem;
-}
-#skills-first {
-    background-image: linear-gradient(#362222, #171010);
-    position: relative;
 }
 #skills-first img{
     float: left;
@@ -138,10 +169,6 @@ h2, h3, h4 {
 }
 
 
-#skills-second {
-    background-image: linear-gradient(#171010, #362222);
-    position: relative;
-}
 .skills2 {
     height: 100vh;
     width: 100%;
@@ -156,16 +183,8 @@ h2, h3, h4 {
 #skills-second h2{
     margin-bottom: 2rem;
 }
-#skills-second hr {
-    margin-top: 30%;
-}
 
 
-
-#contact {
-    background-image: linear-gradient(#362222, #171010);
-    position: relative;
-}
 
 #emial-button {
     width: 1.5rem;
@@ -175,7 +194,6 @@ h2, h3, h4 {
 
 
 .footer {
-    background-image: linear-gradient(#171010, #362222);
     padding: 20px;
 
 }
@@ -193,16 +211,16 @@ h2, h3, h4 {
 @media only screen and (max-width: 600px) {
 
     p {
-        font-size: 10px;
+        font-size: 14px;
     }
     h4 {
-        font-size: 15px;
+        font-size: 18px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
     .front-message h3 {
-        font-size: 20px;
+        font-size: 23px;
     }
     .front-message h1 {
         font-size: 60px;
