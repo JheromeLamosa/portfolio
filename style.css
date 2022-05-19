@@ -57,7 +57,7 @@ h2 {
 #title {
     width: auto;
     min-height: 100vh;
-    background-image: url("img/qumTnO2.jpg");
+    background-image: url("img/qumTnO22.jpg");
     background-size: cover;
     background-position: center;
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/gummy-coding.png'); */
@@ -164,7 +164,7 @@ a.download-cv-button:hover {
     letter-spacing: 5px;
     font-size: 30px;
     text-transform: uppercase;
-    animation: typing 8s steps(15) infinite;
+    animation: typing 6s steps(15) infinite;
     overflow: hidden;
     white-space: nowrap; 
 }
@@ -190,7 +190,7 @@ a.download-cv-button:hover {
 
 #about {
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/gummy-coding.png'); */
-    background-color: #bfdad8;
+    background-color: #cae9e9;
     position: relative;
 }
 
@@ -246,8 +246,29 @@ a.download-cv-button:hover {
     text-align: left;
 } 
 
-
-
+/* Specialties */
+i {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+}
+#specialties i:before, #specialties img {
+    font-size: 80px;
+    height: 80px;
+}
+#specialties  h4 {
+    text-align: center;
+}
+.specialties-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.specialties-main-container {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Skill first section*/
 #skills-first {
