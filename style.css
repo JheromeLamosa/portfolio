@@ -8,6 +8,7 @@ body {
     color: #101010;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h2, h3, h4 {
@@ -46,6 +47,9 @@ h2 {
     border-style: dotted solid;
     border-radius: 100%;
     padding: 5px 20px;
+}
+.fixed-top {
+    background: #9D9D9D;
 }
 
 
@@ -91,6 +95,14 @@ h2 {
 
 }
 
+lottie-player {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 600px!important;
+    height: auto!important;
+}
 
 .download-cv-button {
     padding: 15px 20px;
@@ -111,8 +123,11 @@ a.download-cv-button:hover {
     color:  rgb(246, 246, 246);
     border-color: rgb(157, 157, 157);
 }
-.fixed-top {
-    background: #9D9D9D;
+.banner-slider {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* start typing */
@@ -163,7 +178,13 @@ a.download-cv-button:hover {
 }
 /* end typing */
 
-
+/* slider */
+.banner-slider-cotainer > div {
+    min-width: 100px;
+}
+.banner-slider-cotainer {
+    background-color: blue;
+}
 
 /* ABOUT SECTION */
 
