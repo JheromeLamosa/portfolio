@@ -349,7 +349,6 @@ section#contact {
     justify-content:space-around;
     position: absolute;
     top: -70px;
-    z-index: 999999999999;
 }
 @keyframes snowflakes {
     0% {
