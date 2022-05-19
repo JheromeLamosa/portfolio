@@ -34,7 +34,38 @@
 
 
   <body>
+   <!-- Messenger Chat Plugin Code -->
+   <div id="fb-root"></div>
 
+   <!-- Your Chat Plugin code -->
+   <div id="fb-customer-chat" class="fb-customerchat">
+   </div>
+
+   <script>
+     var chatbox = document.getElementById('fb-customer-chat');
+     chatbox.setAttribute("page_id", "115453517832113");
+     chatbox.setAttribute("attribution", "biz_inbox");
+   </script>
+
+   <!-- Your SDK code -->
+   <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         xfbml            : true,
+         version          : 'v13.0'
+       });
+     };
+
+     (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+   </script>
+
+   
     <!-- MAIN BANNER -->
     <section id="title">
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -61,7 +92,7 @@
       </nav>
 
       <div class="main-banner">
-        <h1>Hi! I'm <span>Jherome Lamosaツ</span></h1>
+        <h1>Hi! I'm <span>Jheromeツ</span></h1>
           <div class="container-loader">
             <div class="loader">
               <h2>A Web Developer</h2>
@@ -70,7 +101,7 @@
         <!-- <a download class="download-cv-button" href="img/jheromelamosa-resume.pdf"> Download My CV</a> -->
       </div>
       <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kkflmtur.json" background="transparent"  speed="1" " loop autoplay></lottie-player>
-      <div class="banner-slider">
+      <!-- <div class="banner-slider">
         <div class="banner-slider-cotainer">
           <div class="first-slider">
               <p>hello</p>
@@ -84,7 +115,7 @@
           <div class="forth-slider">
             <p>hi</p>
           </div>
-        </div>
+        </div> -->
       </div>
       
     </section>
@@ -194,8 +225,6 @@
       </div>
     </footer>
 
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -205,5 +234,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="sandbox.js"></script>
+   
   </body>
 </html>
