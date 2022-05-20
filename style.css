@@ -195,19 +195,14 @@ a.download-cv-button:hover {
 }
 /* end typing */
 
-/* slider */
-.banner-slider-cotainer > div {
-    min-width: 100px;
-}
-.banner-slider-cotainer {
-    background-color: blue;
+
+#portfolio-content {
+    background-color: #f9f8fa;
 }
 
 /* ABOUT SECTION */
 
 #about {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/gummy-coding.png'); */
-    background-color: #f9f8fa;
     position: relative;
     overflow: hidden;
     height: 100vh;
@@ -250,34 +245,18 @@ a.download-cv-button:hover {
 @keyframes imageEffectHover {
     0% {
         border-radius: 90% 80% 90%;
-        /* box-shadow: 0px 0px 11px 0px #24A19C;
-        -webkit-box-shadow: 0px 0px 11px 0px #24A19C;
-        -moz-box-shadow: 0px 0px 11px 0px #24A19C; */
     }
     25% {
         border-radius: 80% 90% 80%;
-        /* box-shadow: 0px 0px 0px 7px #24A19C;
-        -webkit-box-shadow: 0px 0px 0px 7px #24A19C;
-        -moz-box-shadow: 0px 0px 0px 7px #24A19C; */
     }
     50% {
         border-radius: 90% 80% 90%;
-        /* box-shadow: 0px 0px 200px 10px #24A19C;
-        -webkit-box-shadow: 0px 0px 200px 10px #24A19C;
-        -moz-box-shadow: 0px 0px 200px 10px #24A19C; */
     }
     75% {
         border-radius: 80% 90% 80%;
-        /* box-shadow: 0px 0px 11px 0px #24A19C;
-        -webkit-box-shadow: 0px 0px 11px 0px #24A19C;
-        -moz-box-shadow: 0px 0px 11px 0px #24A19C; */
     }
     100% {
-        border-radius: 100%;
-        /* box-shadow: 0px 0px 11px 0px #24A19C;
-        -webkit-box-shadow: 0px 0px 11px 0px #24A19C;
-        -moz-box-shadow: 0px 0px 11px 0px #24A19C; */
-        
+        border-radius: 100%;   
     }
 }
 
@@ -308,7 +287,6 @@ a.download-cv-button:hover {
 
 /* Specialties */
 #specialties {
-    background-color: #f9f8fa;
     position: relative;
 }
 i {
@@ -336,7 +314,6 @@ i {
 
 /* Skill first section*/
 #skills-first {
-    background-color: #f9f8fa;
 }
 #skills-first h2{
     margin-bottom: 2rem;
@@ -378,11 +355,6 @@ i {
     margin-bottom: 2rem;
 }
 
-#skills-second {
-    background-color: #f9f8fa;
-}
-
-
 #emial-button {
     width: 1.5rem;
     height: auto;
@@ -390,7 +362,6 @@ i {
 }
 
 section#contact {
-    background-color: #f9f8fa;
 }
 /* showflakes effect */
 .snow-flakes img {
@@ -662,8 +633,8 @@ section#contact {
 /* leaves effect */
 #leaves {
     position:relative;
-    top:-50px;
-    width:100%;
+    top:0px;
+    width: 50%;
     text-align:right;
     display:none;
 }
