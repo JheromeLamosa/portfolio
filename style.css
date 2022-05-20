@@ -199,6 +199,9 @@ a.download-cv-button:hover {
 #portfolio-content {
     background-color: #f9f8fa;
 }
+#portfolio-content.summer-background-color {
+    background-color: #e7eeae!important;
+}
 
 /* ABOUT SECTION */
 
@@ -212,8 +215,10 @@ a.download-cv-button:hover {
 }
 
 /* DEVIDER */
-
-/* start Devider bottom of Main banner */
+.divider-for-summer {
+    display: none;
+}
+/* start Devider for winter */
 .custom-shape-divider-top-1652869084 {
     position: absolute;
     top: 0;
@@ -233,7 +238,30 @@ a.download-cv-button:hover {
 .custom-shape-divider-top-1652869084 .shape-fill {
     fill: #FEFEFE;
 }
-/* end Devider bottom of Main banner */
+/* end Devider for winter */
+
+/* start Devider for summer */
+.custom-shape-divider-top-1653019842 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1653019842 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-top-1653019842 .shape-fill {
+    fill: #6E955C;
+}
+/* end Devider for summer */
+
 
 .my-image {
     width: 500px;
